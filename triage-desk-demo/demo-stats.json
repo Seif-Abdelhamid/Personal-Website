@@ -1,0 +1,66 @@
+{
+ "rules": [
+  {
+   "rule_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "findings": 14,
+   "open": 2,
+   "triaged": 12,
+   "false_positives": 3,
+   "accepted_risk": 1,
+   "fixed": 8,
+   "fp_rate": 0.25,
+   "median_time_to_triage_s": 1260
+  },
+  {
+   "rule_id": "sqlalchemy-text-fstring",
+   "findings": 9,
+   "open": 1,
+   "triaged": 8,
+   "false_positives": 1,
+   "accepted_risk": 0,
+   "fixed": 7,
+   "fp_rate": 0.125,
+   "median_time_to_triage_s": 840
+  },
+  {
+   "rule_id": "subprocess-shell-true",
+   "findings": 7,
+   "open": 1,
+   "triaged": 6,
+   "false_positives": 2,
+   "accepted_risk": 1,
+   "fixed": 3,
+   "fp_rate": 0.333,
+   "median_time_to_triage_s": 1980
+  },
+  {
+   "rule_id": "hmac-digest-compared-with-equals",
+   "findings": 4,
+   "open": 0,
+   "triaged": 4,
+   "false_positives": 0,
+   "accepted_risk": 0,
+   "fixed": 4,
+   "fp_rate": 0.0,
+   "median_time_to_triage_s": 600
+  },
+  {
+   "rule_id": "react-dangerously-set-inner-html",
+   "findings": 6,
+   "open": 2,
+   "triaged": 4,
+   "false_positives": 2,
+   "accepted_risk": 1,
+   "fixed": 1,
+   "fp_rate": 0.5,
+   "median_time_to_triage_s": 3120
+  }
+ ],
+ "totals": {
+  "findings": 40,
+  "triaged": 34,
+  "false_positives": 8,
+  "fp_rate": 0.235,
+  "median_time_to_triage_s": 1260
+ }
+}
